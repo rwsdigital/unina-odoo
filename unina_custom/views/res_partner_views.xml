@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
   <data>
-    <record id="view_personal_information_birthdate_date" model="ir.ui.view">
-        <field name="name">Birthdate Date field</field>
+    <record id="view_partner_form_inherit" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit</field>
         <field name="model">res.partner</field>
-        <field name="inherit_id" ref="partner_contact_personal_information_page.personal_information"/>
+        <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//group[@name='personal_information_group']">
+            <xpath expr="//field[@name='vat']">
                 <field name='birthdate_date'/>
             </xpath>
         </field>
