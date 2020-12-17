@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_rwsdigital_sale_rwsdigital_sale,rwsdigital_sale.rwsdigital_sale,model_rwsdigital_sale_rwsdigital_sale,,1,0,0,0
